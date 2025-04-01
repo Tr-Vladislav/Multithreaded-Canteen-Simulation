@@ -1,7 +1,18 @@
-# Student Cafeteria Simulation
+# Student Canteen Simulation
+
+![openart-image_np8L0FjF_1743518830231_raw](https://github.com/user-attachments/assets/c0c91e17-6fbe-4c7c-92f8-6a151cab3c46)
 
 ## Description
 This project is a multithreaded simulation of a student cafeteria, where clients queue for food, pay at the cashier, and find seats at shared tables. The simulation models real-life interactions using Java threads and synchronization mechanisms.
+
+## Interface
+
+![Screenshot from 2025-04-01 16-24-19](https://github.com/user-attachments/assets/e9856422-c40a-4a6b-9a8b-068a7f2ef64c)
+
+
+![Screenshot from 2025-04-01 16-24-28](https://github.com/user-attachments/assets/d15d53d3-f2b7-4347-98fc-2ac4d1517d7e)
+
+
 
 ## System Components
 
@@ -24,7 +35,7 @@ This project is a multithreaded simulation of a student cafeteria, where clients
 - Cashiers process payments at a random time interval.
 
 ### 4. Tables (Shared Resource)
-- Two long tables with `2*n` seats each.
+- One long table with `2*n` seats.
 - Clients attempt to find a free seat sequentially.
 - After eating, clients leave the table.
 
@@ -42,6 +53,4 @@ This project is a multithreaded simulation of a student cafeteria, where clients
 - Enhance visualization of queues and table occupancy.
 - Introduce more dynamic cashier availability logic.
 
-## License
-This project is open-source and available under the MIT License.
 
